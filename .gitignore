@@ -97,7 +97,7 @@ blob-report/
 /backend/desktop-screenshot*.png
 /backend/desktop_screenshot*.png
 /backend/screen*.png
-/c6413f3745feef56ad243b841b18737d.jpg
+# /c6413f3745feef56ad243b841b18737d.jpg
 
 # Logs, caches, and temporary artifacts
 *.log
