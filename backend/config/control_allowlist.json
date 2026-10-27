@@ -1,0 +1,64 @@
+{
+  "status": {
+    "label": "Windows 版本",
+    "executable": "cmd.exe",
+    "args": [
+      "/d",
+      "/c",
+      "ver"
+    ],
+    "cwd": ".",
+    "timeout_seconds": 10
+  },
+  "current_directory": {
+    "label": "当前目录",
+    "executable": "cmd.exe",
+    "args": [
+      "/d",
+      "/c",
+      "cd"
+    ],
+    "cwd": ".",
+    "timeout_seconds": 10
+  },
+  "list_project": {
+    "label": "查看项目文件",
+    "executable": "cmd.exe",
+    "args": [
+      "/d",
+      "/c",
+      "dir /b"
+    ],
+    "cwd": ".",
+    "timeout_seconds": 10
+  },
+  "list_desktop": {
+    "label": "查看桌面文件",
+    "executable": "cmd.exe",
+    "args": [
+      "/d",
+      "/c",
+      "dir /b \"%USERPROFILE%\\Desktop\""
+    ],
+    "cwd": ".",
+    "timeout_seconds": 10
+  },
+  "system_info": {
+    "label": "系统信息",
+    "executable": "cmd.exe",
+    "args": [
+      "/d",
+      "/c",
+      "systeminfo | findstr /B /C:\"OS Name\" /C:\"OS Version\" /C:\"System Type\""
+    ],
+    "cwd": ".",
+    "timeout_seconds": 15
+  },
+  "network_info": {
+    "label": "网络配置",
+    "executable": "ipconfig.exe",
+    "args": [],
+    "cwd": ".",
+    "timeout_seconds": 10
+  }
+}

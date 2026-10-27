@@ -1,0 +1,9 @@
+{
+  "status": {
+    "label": "Windows 版本",
+    "executable": "cmd.exe",
+    "args": ["/d", "/c", "ver"],
+    "cwd": ".",
+    "timeout_seconds": 10
+  }
+}
